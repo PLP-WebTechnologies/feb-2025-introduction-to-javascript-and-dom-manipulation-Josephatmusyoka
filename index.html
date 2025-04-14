@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KABABA TECHCARE SOLUTIONS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="KABABA Logo" width="60">
+            <h1 id="companyName">KABABA TECHCARE SOLUTIONS</h1>
+        </div>
+        <p class="tagline">Your Trusted IT Partner</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                We are a dynamic team of IT professionals delivering innovative digital solutions,
+                IT support, and cybersecurity services to businesses across Africa.
+            </p>
+            <button onclick="changeMessage()">Click Me to Change This Message</button>
+            <p id="dynamicMessage">This message will change when you click the button.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul id="serviceList">
+                <li>IT Support & Maintenance</li>
+                <li>Web Development</li>
+                <li>Cloud Solutions</li>
+            </ul>
+            <button onclick="addService()">Add Service</button>
+            <button onclick="removeService()">Remove Last Service</button>
+        </section>
+
+        <section id="styleToggle">
+            <h2>Customize Style</h2>
+            <p>Click the button below to toggle background color of this section.</p>
+            <button onclick="toggleStyle()">Toggle Style</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 KABABA TECHCARE SOLUTIONS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
